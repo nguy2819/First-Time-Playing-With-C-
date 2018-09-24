@@ -138,7 +138,28 @@ namespace TienFirstFrameworkProject
 
             Console.WriteLine(luckyNumbers[1]);
 
+            SayHi("Tien"); //Methods - Hello Tien
+
+            Console.WriteLine(Cube(5)); //Return Statement - 125 
+
+            int cubedNumber = Cube(5);
+            Console.WriteLine(cubedNumber);
+
             Console.ReadLine(); //pause the screen so we can see the result in a longer time
+        }
+
+        //Methods
+        static void SayHi(string name)
+        {
+            Console.WriteLine("Hello User");
+            Console.WriteLine("Hello " + name);
+        }
+
+        //Return Statement
+        static int Cube(int num) //return an integer - we called it Cube for this Method - we also specify the parameter inside () => take 1 parameter and it is integer - and we called it num
+        {
+            int result = num * num * num;
+            return result;
         }
     }
 }
