@@ -88,7 +88,58 @@ namespace TienFirstFrameworkProject
             Console.WriteLine(Math.Round(3.4)); //iterator will round the number for you - which is 3
             Console.WriteLine(Math.Round(3.5)); //4
 
+
+
+
+            //Getting User Input
+            Console.Write("Enter your name: ");
+            // string name = Console.ReadLine();
+            // Console.WriteLine("Hello " + name);
+
+
+            //Building a Calculator
+            int num2 = Convert.ToInt32("45");
+            Console.WriteLine(num2 + 5); //50
+            Console.WriteLine("43" + "56"); //4356
+
+            Console.Write("Enter a number: ");
+             double num3 = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Enter another number: ");
+             double num4 = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine(num3 + num4);
+
+
+            //Building a Mad Libs Game
+
+            string color, pluralNoun, celebrity;
+            Console.Write("Enter a color: ");
+            color = Console.ReadLine();
+
+            Console.Write("Enter a plural noun: ");
+            pluralNoun = Console.ReadLine();
+
+            Console.Write("Enter a celebrity: ");
+            celebrity = Console.ReadLine();
+
+            Console.WriteLine($"Roses are {color}");
+            Console.WriteLine($"{pluralNoun} are blue");
+            Console.WriteLine($"I Love {celebrity}");
+
+
+
+            //Arrays
+            int[] luckyNumbers = { 4, 8, 15, 16, 23, 42};
+            string[] friends = new string[5];
+            friends[0] = "Jim";
+            friends[1] = "Kelly";
+
+            luckyNumbers[1] = 900;
+
+            Console.WriteLine(luckyNumbers[1]);
+
             Console.ReadLine(); //pause the screen so we can see the result in a longer time
         }
     }
 }
+
