@@ -42,8 +42,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArraysAndIfExample.cs" />
+    <Compile Include="CalculatorExample.cs" />
+    <Compile Include="IntAndMathExamples.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StringExample.cs" />
+    <Compile Include="SwitchExample.cs" />
+    <Compile Include="UserInputExample.cs" />
+    <Compile Include="WhileExample.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
