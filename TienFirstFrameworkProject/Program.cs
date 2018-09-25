@@ -214,8 +214,51 @@ namespace TienFirstFrameworkProject
                 Console.WriteLine("Invalid Operator");
             }
 
+
+
+
+            //Switch Statement in C#
+            Console.WriteLine(GetDay(90));
+
             Console.ReadLine(); //pause the screen so we can see the result in a longer time
         }
+
+        //Switch Statement New Method
+        static string GetDay(int dayNum)
+        {
+            string dayName;
+
+            switch (dayNum)
+            {
+                case 0: //in the case, dayNum is 0 => dayName will be Sunday
+                    dayName = "Sunday";
+                    break;
+                case 1:
+                    dayName = "Monday";
+                    break;
+                case 2:
+                    dayName = "Tuesday";
+                    break;
+                case 3:
+                    dayName = "Wednesday";
+                    break;
+                case 4:
+                    dayName = "Thursday";
+                    break;
+                case 5:
+                    dayName = "Friday";
+                    break;
+                case 6:
+                    dayName = "Saturday";
+                    break;
+                default: //in case people applies a dayNum is 100
+                    dayName = "Invalid Day Number";
+                    break;
+            }
+            return dayName;
+        }
+
+
 
         //More If Statement
         static int GetMax(int num1, int num2, int num3)
