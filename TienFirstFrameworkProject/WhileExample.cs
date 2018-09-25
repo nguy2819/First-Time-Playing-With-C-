@@ -17,8 +17,8 @@ namespace TienFirstFrameworkProject
             while (true)
             {
                 counter++;
-                Console.WriteLine(counter); //we increment first - so started at 1 to 11
-                if (counter >= 10)
+                Console.WriteLine(counter); //we increment first - so started at 1 to 11 because counter > 10; not >= 10
+                if (counter > 10)
                 {
                     break;
                 }

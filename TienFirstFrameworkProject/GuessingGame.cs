@@ -1,8 +1,9 @@
-# C#
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-- I built the HIGH-LOW GUESSING GAME SUCCESSFULLY - by MYSELF with some code helps for picking random number from my supervisor, David Borland.
-
-```
 namespace TienFirstFrameworkProject
 {
     class GuessingGame
@@ -34,4 +35,3 @@ namespace TienFirstFrameworkProject
         }
     }
 }
-```
