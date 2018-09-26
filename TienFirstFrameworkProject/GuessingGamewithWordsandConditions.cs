@@ -8,7 +8,7 @@ namespace TienFirstFrameworkProject
 {
     class GuessingGamewithWordsandConditions
     {
-        internal static void Run()
+        public static void Run()
         {
             string secretWord = "Tien";
             string guess = "";

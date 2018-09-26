@@ -53,11 +53,13 @@ namespace TienFirstFrameworkProject
 
             SwitchExample.Run();
             
-            WhileExample.Run();
+            //WhileExample.Run();
 
-            GuessingGame.Run();
+            //GuessingGame.Run();
 
-            GuessingGamewithWordsandConditions.Run();
+            //GuessingGamewithWordsandConditions.Run();
+
+            ForLoop.Run();
 
             Console.ReadLine(); //pause the screen so we can see the result in a longer time
         }
