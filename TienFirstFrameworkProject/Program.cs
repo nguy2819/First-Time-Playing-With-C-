@@ -56,6 +56,9 @@ namespace TienFirstFrameworkProject
             WhileExample.Run();
 
             GuessingGame.Run();
+
+            GuessingGamewithWordsandConditions.Run();
+
             Console.ReadLine(); //pause the screen so we can see the result in a longer time
         }
 

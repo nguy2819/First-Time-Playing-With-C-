@@ -45,6 +45,7 @@
     <Compile Include="ArraysAndIfExample.cs" />
     <Compile Include="CalculatorExample.cs" />
     <Compile Include="GuessingGame.cs" />
+    <Compile Include="GuessingGamewithWordsandConditions.cs" />
     <Compile Include="IntAndMathExamples.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
